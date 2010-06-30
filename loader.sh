@@ -1,0 +1,1 @@
+java -cp "/opt/tomcat6/webapps/ROOT/WEB-INF/lib/*:/usr/share/java/mysql-connector-java-5.1.6.jar" mondrian.test.loader.MondrianFoodMartLoader -verbose -tables -data -indexes -jdbcDrivers=com.mysql.jdbc.Driver -inputFile=/home/donny/mondrian-3.2.0.13661/demo/FoodMartCreateData.sql -outputJdbcURL="jdbc:mysql://localhost:5029/foodmart?user=foodmart&password=foodmart"
